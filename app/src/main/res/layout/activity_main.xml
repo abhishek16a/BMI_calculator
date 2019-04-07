@@ -83,7 +83,7 @@
             android:id="@+id/etBmi"
             android:layout_width="60dp"
             android:layout_height="wrap_content" />
-    </LinearLayout>
+    </LinearLayout>    
 
 
 
