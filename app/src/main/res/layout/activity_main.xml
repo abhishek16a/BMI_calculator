@@ -16,10 +16,12 @@
         style="@style/BmiStyle"
         android:text="Your Height :"
         android:layout_weight="1"
+        android:textSize="20dp"
         />
 
     <EditText
-        style="@style/BmiStyle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:id="@+id/etHeight"
         android:inputType="numberDecimal"/>
 
@@ -39,6 +41,8 @@
         <TextView
             style="@style/BmiStyle"
             android:text="Your Weight :"
+            android:textSize="20dp"
+
             />
 
         <EditText
@@ -65,7 +69,7 @@
         android:layout_gravity="center"
         android:text="Compute BMI"
         android:background="#ABA9F7F7"
-        android:focusable="auto"
+        android:typeface="monospace"
 
         />
 
@@ -78,12 +82,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Your BMI :"/>
+            android:text="Your BMI :"
+            android:textSize="20dp"/>
         <EditText
             android:id="@+id/etBmi"
-            android:layout_width="60dp"
+            android:layout_width="100dp"
             android:layout_height="wrap_content" />
-    </LinearLayout>    
+    </LinearLayout>
 
 
 
